@@ -68,5 +68,6 @@ You can use curl to test the API:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"modality":"Be ironic and acid in a short response", "prompt":"Hello, world!", "temperature":0.9 }' http://localhost:3000/chat --output response.mp3
-This command will download a response.mp3 file with the response from GPT-4 converted to speech! 🗣️🎶
 ```
+
+This command will download a response.mp3 file with the response from GPT-4 converted to speech! 🗣️🎶
